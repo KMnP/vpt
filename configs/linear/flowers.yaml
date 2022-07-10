@@ -1,0 +1,12 @@
+_BASE_: "../base-linear.yaml"
+RUN_N_TIMES: 1
+DATA:
+  NAME: "OxfordFlowers"
+  DATAPATH: ""  #TODO: need to specify here
+  NUMBER_CLASSES: 102
+  MULTILABEL: False
+MODEL:
+  TYPE: "vit"
+SOLVER:
+  BASE_LR: 0.001
+  WEIGHT_DECAY: 0.0001

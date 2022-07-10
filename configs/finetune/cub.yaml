@@ -1,0 +1,13 @@
+_BASE_: "../base-finetune.yaml"
+RUN_N_TIMES: 1
+DATA:
+  NAME: "CUB"
+  DATAPATH: ""  #TODO: need to specify here
+  NUMBER_CLASSES: 200
+  MULTILABEL: False
+  FEATURE: "imagenet_supervised"  # need to tune
+MODEL:
+  TYPE: "vit"
+SOLVER:
+  BASE_LR: 0.00375
+  WEIGHT_DECAY: 0.01
