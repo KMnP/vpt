@@ -108,8 +108,9 @@ dataset_builder.download_and_prepare()
 
 
 
-## Note
+## Notes
 
+### TFDS version
 Note that the experimental results may be different with different API and/or dataset generation code versions. See more from [tfds documentation](https://www.tensorflow.org/datasets/datasets_versioning). Here are what we used for VPT:
 
 ```bash
@@ -139,3 +140,5 @@ dsprites: 2.0.0
 smallnorb: 2.0.0
 ```
 
+### Train split
+As in issue https://github.com/KMnP/vpt/issues/1, we also uploaded the vtab train split info to the vtab data release [Google Drive](https://drive.google.com/drive/folders/1mnvxTkYxmOr2W9QjcgS64UBpoJ4UmKaM)/[Dropbox](https://cornell.app.box.com/v/vptfgvcsplits). In the file `vtab_trainval_splits.json`, for each dataset, you can find the filenames of the randomly selected 1k training examples used in our experiment. We got them by extracting the ‘filename’ attribute from the tensorflow dataset feature dict. Unfortunately, because there’s no such info for [dsprite](https://www.tensorflow.org/datasets/catalog/dsprites), [smallnorb](https://www.tensorflow.org/datasets/catalog/smallnorb) and [svhn](https://www.tensorflow.org/datasets/catalog/svhn_cropped) in the tensorflow dataset format, we cannot provide the splits for these 3 datasets.
