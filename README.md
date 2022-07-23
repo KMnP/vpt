@@ -86,7 +86,7 @@ See Table 8 in the Appendix for dataset details.
 
 ### Pre-trained model preperation
 
-Download and place the pre-trained Transformer-based backbones to `MODEL.MODEL_ROOT` (ConvNeXt-Base and ResNet50 would be automatically downloaded via the links in the code).
+Download and place the pre-trained Transformer-based backbones to `MODEL.MODEL_ROOT` (ConvNeXt-Base and ResNet50 would be automatically downloaded via the links in the code). Note that you also need to rename the downloaded ViT-B/16 ckpt from `ViT-B_16.npz` to `imagenet21k_ViT-B_16.npz`.
 
 See Table 9 in the Appendix for more details about pre-trained backbones.
 
