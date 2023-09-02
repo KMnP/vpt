@@ -72,7 +72,7 @@ See Table 8 in the Appendix for dataset details.
 
 - Fine-Grained Visual Classification tasks (FGVC): The datasets can be downloaded following the official links. We split the training data if the public validation set is not available. The splitted dataset can be found here: [Dropbox](https://cornell.box.com/v/vptfgvcsplits), [Google Drive](https://drive.google.com/drive/folders/1mnvxTkYxmOr2W9QjcgS64UBpoJ4UmKaM?usp=sharing). 
 
-  - [CUB200 2011](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html)
+  - [CUB200 2011](https://data.caltech.edu/records/65de6-vp158)
 
   - [NABirds](http://info.allaboutbirds.org/nabirds/)
 
